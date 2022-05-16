@@ -1,0 +1,427 @@
+* {box-sizing: border-box}
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.topnav a{
+	overflow: visible;
+	color: black;
+	font-size: 20px;
+	padding: 12px;
+	/*the distance between each nav button*/
+	margin-left: 20px;
+	margin-right: 20px;
+	/*the distance between each nav button*/
+	text-decoration: none;
+font-family: 'Lato', sans-serif;
+	text-align: center;
+	width: 10%;
+	color: white;
+	text-transform: uppercase;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.text{
+	margin-bottom: 200px;
+	padding-bottom: 200px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topnav {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.topnav a:hover{
+	background-color: black;
+    color: white;
+}
+
+.navbar {
+	width: 100%;
+	background-color: #4e79b5;
+	margin-top: -100px;
+	padding-bottom: 30px;
+}
+
+h1.head1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: gnuolane, sans-serif; 
+	letter-spacing: 4px;
+	font-weight: 500;	
+	font-style: normal; f
+	font-weight: lighter;
+	font-size: 120px;
+	margin-bottom: 20px;
+	padding-top: 170px;
+	color: white;
+}
+
+.column {
+  	float: left;
+  	width: 33.33%;
+  	padding: 0px;
+  	height: 330px;
+  	margin-top: -10px;
+  	background-color: #6bbbd1;
+}
+
+h2.location {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	margin-left: 100px;
+  	margin-right: 80px;
+  	font-size: 30px;
+  	margin-bottom: -10px;
+}
+
+.footer {
+	background-color: transparent;
+font-family: 'Raleway', sans-serif;
+	color: #044863;
+	margin-left:100px;
+  	margin-right: 80px;
+  	font-size: 20px;
+  	overflow: all;
+}
+
+input[type=text] {
+ 	width: 50%;
+  	padding: 10px;
+  	margin: -30px;
+  	box-sizing: border-box;
+  	background-color:white;
+  	display: block;
+  	margin-left: 100px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	color: #044863;
+	border-color: #044863;
+}
+
+
+input[type=submit]{
+	background-color:white;
+	border: solid;
+	border-color:#044863;
+	box-sizing: border-box;
+	color: black;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	display: block;
+	/* I searched for "cursor" tag, cuz I think if I put my cursor on "submit", and the cursor is still, the submit will become really "fake" */ 
+	cursor: pointer;
+	margin-left: 100px;
+	margin-right: auto;
+	margin-top:-30px;
+}
+
+.joinnow [type=submit]{
+	background-color:transparent;
+	border: solid;
+	border-color:black;
+	box-sizing: border-box;
+	color: black;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+	display: block;
+	/* I searched for "cursor" tag, cuz I think if I put my cursor on "submit", and the cursor is still, the submit will become really "fake" */ 
+	cursor: pointer;
+	margin-left: 38px;
+	margin-right: auto;
+	margin-top:-40px;
+	width: 175px;
+	height: 50px;
+}
+
+
+.left{
+	border-left:20px solid #ffe8a8
+}
+
+.background{
+	color:#000;background-color:#fdf5e6;
+	padding-bottom:40px;
+	padding-top: 10px;
+}
+
+.twocolumn {
+	padding-top:30px;
+	height: 300px;
+	width: 100%;
+}
+
+.column3 {
+  	float: left;
+  	width: 35%;
+  	height:270px; 
+  	/*the distance between two column*/
+  	margin-left:130px;
+  	border-style: ridge;
+  	border-radius: 25px;
+  	box-shadow: 5px 10px 8px #888888;
+  	margin-top: 20px;
+}
+
+.column4 {
+	float: right;
+  	width: 35%;
+  	height:270px; 
+  	margin-right :150px;
+  	border-style: ridge;
+  	border-radius: 25px;
+  	box-shadow: 5px 10px 8px #888888;
+  	margin-top: 20px;
+}
+
+.bigheading {
+	font-weight: bold ;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom:10px;
+}
+
+.maincontent {
+	font-size: 20px;
+}
+
+.maps {
+	margin-left: 100px;
+	margin-right: 200px;
+}
+
+.column6 {
+  	float: left;
+  	width: 28%;
+  	height: 300px; 
+  	size: 400px;
+  	margin-top: 0px;
+  	margin-bottom: -100px;
+
+}
+
+.column7 {
+	float: right;
+	width: 60%;
+	padding: 10px;
+	height: 300px;
+	margin-right: 50px;
+	margin-top: 0px;
+	margin-bottom: -100px;
+	border-style: ridge;
+	height: 300px;
+	border-radius: 30px;
+}
+
+
+
+#darkblue {
+  	background-image: url("https://live.staticflickr.com/6021/6015396482_9ab293f906_b.jpg");
+  	background-size: 400px;
+  	height: 300px;
+  	width: 400px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	margin-left: 50px;
+}
+
+
+.approach {
+  	float: left;
+  	width: 28%;
+  	background-color:#f5fbfc;
+  	border-style:ridge;
+  	height: 700px;
+  	margin-bottom: 50px;
+  	margin-top: 50px;
+  	border-color: #A8A0A0;
+  	box-shadow: 5px 10px 8px #888888;
+  	border-radius: 30px;
+}
+
+.bigheading1 {
+
+	font-size: 38px;
+	margin-top: -1px;
+	margin-bottom: -0px;
+	font-family: 'Lato', sans-serif;
+	padding-left:10px;
+	padding-top: 10px;
+}
+
+.picture {
+	background-size: 550px;
+	height: 300px;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	border-radius: 30px;
+}
+
+.access {
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	margin-top: 0px;
+	margin-bottom: -10px;
+}
+
+.realcontent {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+.columna {
+  	float: left;
+  	width: 30%;
+  	height: 300px; 
+  	margin-bottom:30px;
+}
+
+.columnb {
+	float: right;
+	width: 70%;
+	height: 300px;
+}
+
+
+.headpic {
+	background-image: url(Okinawa_Aquarium.jpg);
+	background-size: 1500px;
+	height: 250px;
+	width: 1425px;
+	margin-top: 30px;
+}
+
+.exhibition {
+  font-family: 'Montserrat', sans-serif;
+	margin-left: 80px;
+}
+
+#break {
+	margin-bottom: 4000px;
+}
+
+.float {
+	float: left;
+}
+
+
+.major {
+	font-size: 20px;
+	font-weight: bolder;
+	margin-top: 20px; 
+	margin-bottom: -5px; 
+  font-family: 'Montserrat', sans-serif;
+	margin-right: 80px;
+}
+.column50 {
+  	width: 35%;
+  	height: 300px; 
+  	margin-bottom:30px;
+  	margin-bottom:30px;
+}
+
+.columnlong {
+  float: left;
+  width: 46%;
+  height: 250px;
+  float: left; 
+  margin-top: 170px;
+}
+
+.columnlong2 {
+  float: left;
+  width: 46%;
+  height: 250px;
+  float: left; 
+  margin-top: 170px;
+  background-color: white;
+  border-style: ridge;
+  border-width: 1px;
+  border-color: #E5E5E5;
+  padding:20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sangha {
+	background-size: 500px;
+	height: 100%;
+	width: 100%;
+  	background-repeat: no-repeat;
+}
+
+.chuhan {
+  font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+
+.ash {
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+.jianglin {
+	margin-top: -5px;
+}
+
+.honywill {
+	font-size: 15px;
+	margin-top: 25px;
+	color: #A8A0A0;
+}
+
+.leone {
+	line-height: 30px;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.russian a{
+	overflow: visible;
+	float: left;
+	color: black;
+	font-size: 20px;
+	padding: 12px;
+	text-decoration: none;
+	font-family: Didact Gothic, sans-serif;
+	letter-spacing: 0.05px;
+	text-align: center;
+	width: 10%;
+}
+
+.russian a:hover{
+	background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.russian {
+	width: 100%;
+	background-color:transparent;
+	margin-left: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	background-image: url(https://cdn.pixabay.com/photo/2020/07/20/05/22/shark-5421877_1280.png);
+	background-size: 150px;
+	width: 400px;
+	height: 250px;
+	float: left;
+	margin-top: -255px;
+	margin-left: 640px;
+	background-repeat: no-repeat;
+}
