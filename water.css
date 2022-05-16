@@ -292,8 +292,9 @@ input[type=submit]{
 
 
 .headpic {
-	background-image: url(Okinawa_Aquarium.jpg);
-	background-size: 1500px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Okinawa_Aquarium.jpg/1200px-Okinawa_Aquarium.jpg?20140221035706);
+	background-size: 1550px;
+	background-position: -50px -250px;
 	height: 250px;
 	width: 1425px;
 	margin-top: 30px;
