@@ -257,8 +257,8 @@ input[type=submit]{
 }
 
 .kuang {
-	float: right;
-	width: 70%;
+	float: left;
+	width: 100%;
 	padding: 10px;
 	height: 300px;
 	margin-right: 50px;
@@ -304,7 +304,7 @@ input[type=submit]{
 
 .bigheading1 {
 
-	font-size: 38px;
+	font-size: 30px;
 	margin-top: -1px;
 	margin-bottom: -0px;
 	font-family: 'Lato', sans-serif;
@@ -439,7 +439,7 @@ input[type=submit]{
 .leone {
 	font-family: Lato, sans-serif;
 	line-height: 30px;
-	font-size: 20px;
+	font-size: 15px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -520,13 +520,13 @@ a {
 
 .small {
  	float: left;
-  width: 35%;
+  width: 40%;
   padding: 10px;
 }
 
 .large {
  	float: left;
-  width: 65%;
+  width: 60%;
   padding: 10px;
 }
 
